@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* navber part strat  */
+.ItemNAv{
+    padding: 15px ;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.415);
+}
+.nav-link {
+   margin-left: 50px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: blue;
+}
+.bton{
+    padding: 15px 0px;
+    margin-left: 60px;
+}
+.bunton{
+    padding: 10px 30px;
+    border: none ;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}
+.bunton:hover{
+   background-color: white;
+   transform: width;
+   color: black;
+}
+.section-1{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+}
+/* navber part end  */
+
+
+/* banner part strat */
+.banner{
+    background-image: url(images/parallax-1.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.banner-1{
+    padding-top: 400px;
+    padding-bottom: 300px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.552);
+    align-items: center;
+    
+}
+.banner-1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.butn{
+   text-align: center;
+   padding-top: 70px;
+}
+.butn button{
+    padding: 15px 25px;
+    border: none;
+}
+.butn button:hover{
+    background-color: blue;
+    color: white;
+}
+span{
+    color: blue;
+}
+
+/* banner part end */
+
+
+/* about part strat  */
+.section-2{
+    margin-top: 100px;
+}
+.about-02{
+  font-size: 52px;
+  font-family:"Poppins", sans-serif ;
+}
+.about-03{
+    font-size: 24px;
+    font-family:"Poppins", sans-serif ; 
+    padding-top: 20px;
+}
+.about-04{
+    font-size: 19px;
+    font-family:"Poppins", sans-serif ; 
+    padding-top: 20px; 
+}
+.section-2 a{
+    background-color: blue;
+    display:inline-block;
+    padding: 15px 20px;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.section-2 a:hover{
+    background-color: black;
+    color: white;
+}
+/* about part end  */
+
+/* blog part start */
+.section-3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blog-1 p{
+    font-size: 21px;
+    font-family:"Poppins", sans-serif ; 
+    padding-top: 20px;
+    width: 690px;
+    margin: auto;
+}
+.card{
+    border: none !important;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.card img{
+    width: 100%;
+}
+.card h5{
+    padding-top: 10px;
+}
+.hhot{
+    text-align: center;
+}
+.card p{
+    font-size: 19px;
+}
+.hhot-1{
+    text-align: center;
+    font-size: 19px;
+    font-family:"Poppins", sans-serif ; 
+}
+.BTN{
+    padding: 10px 40px;
+    border: none !important;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.BTN:hover{
+    background-color: blue;
+
+}
+.card-1{
+    background-color: rgba(0, 0, 0, 0.645);
+    color: white;
+}
+/* blog part end */
+
+
+/* potfilo part strat  */
+.section-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.album{
+    padding-bottom: 20px;
+}
+.album img{
+    width: 100%;
+    overflow: hidden;
+    animation: SclAnimation .4s ease;
+}
+@keyframes SclAnimation{
+    0%{
+        transform:scale(0) ;
+    }
+    100%{
+        transform:scale(1) ;
+    }
+}
+.potfilo h1{
+    font-size:52px;
+    font-family:"Poppins", sans-serif ;
+    text-align: center;
+}
+.potfilo p{
+    text-align: center;
+    font-size:19px;
+    font-family: "Poppins", sans-serif ;
+}
+.buton{
+   justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.buton a{
+    border: none !important;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.buton a:hover{
+    background-color:blue;
+    color: white;
+}
+/* potfilo part strat  */
+
+
+/* silder part strat */
+.section-5{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.Partners h1{
+   text-align: center;
+   font-size:52px;
+   font-family:"Poppins", sans-serif ;
+}
+.Partners p{
+    text-align: center;
+    font-size: 21px;
+    color: blue;
+    font-family:"Poppins", sans-serif ;
+}
+.Partners p:hover{
+    color:black;
+}
+.Partners-1{
+    padding-top: 50px;
+}
+.Partners-2 img{
+    width: 100%;
+    padding: 20px;
+    background-color: antiquewhite;
+    
+}
+/* silder part end  */
+
+/* Fottter part  strat  */
+.section-6{
+    background-color: black;
+
+}
+.cover{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Asp1{
+    font-size:56px;
+    color: white;
+}
+.loRam{
+    font-size: 18px;
+    font-family:"Poppins", sans-serif ;
+    color: white;
+}
+.Icon{
+    font-size: 50px;
+    color: white;
+}
+.LastPart{
+    color:#fff;
+    font-size:46px;
+}
+.ItemList li{
+    list-style-type: none;
+}
+.ItemList li a{
+    color: #fff;
+    margin-left: -20px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.ItemList li a:hover{
+    color: blue;
+}
+.PeraGrap{
+
+    color: #fff;
+    font-size: 46px;
+}
+.peraText{
+    color: #fff;
+    font-size: 18px;
+}
+.outof{
+    color: blue;
+    font-size: 46px;
+}
+/* Fottter part  End  */
